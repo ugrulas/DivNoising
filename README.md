@@ -70,7 +70,7 @@ optional arguments:
                         Avg1] (type: Float64)
 
 ```
-Please check train.ipynb for details  
+Please check train.ipynb for details. It shows how to reproduce my results.
 
 ### Citation
 ```bibtex
