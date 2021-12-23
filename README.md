@@ -75,7 +75,7 @@ Please check train.ipynb for details. It shows how to reproduce my results.
 | Dataset | Fully Unsupervised | Paper Reported Fully Unsupervised | Unsupervised| Paper Reported  Unsupervised |
 |  ---         | ---       | ---        | ---  | --- |
 |DenoiSeg Mouse| __  | __   | __| __ | 
-|DenoiSeg Mouse s&p | __    | __ | __| -| 
+|DenoiSeg Mouse s&p | __    | __ | __| __| 
 |DenoiSeg Flywing |__  | __     | __ | __|
 |W2S Ch.0 Avg 1 | 34.36 dB   | 34.24 dB   |  - | __ |
 |W2S Ch.1 Avg 1 | 32.24 dB   | 32.22 dB   |  - | __ |
