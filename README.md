@@ -72,7 +72,13 @@ optional arguments:
 ```
 Please check train.ipynb for details. It shows how to reproduce my results.
 
-### Citation
+
+## Qualitative Results
+### **DenoSeg Flywing**
+![Sample From Test Set](./Results/DenoiSeg_Flywing/DenoiSegFlywing.png)
+
+
+## Citation
 ```bibtex
 @article{2020DivNoising,
   title={DivNoising: Diversity Denoising with Fully Cnvolutional Variational Autoencoders},
