@@ -74,9 +74,9 @@ Please check train.ipynb for details. It shows how to reproduce my results.
 ## Results
 | Dataset | Fully Unsupervised | Paper Reported Fully Unsupervised | Unsupervised| Paper Reported  Unsupervised |
 |  ---         | ---       | ---        | ---  | --- |
-|DenoiSeg Mouse| __  | __   | __| __ | 
-|DenoiSeg Mouse s&p | __    | __ | __| __| 
-|DenoiSeg Flywing |__  | __     | __ | __|
+|DenoiSeg Mouse| 34.11 dB  | 34.06 dB |34.19 dB| 34.13 dB | 
+|DenoiSeg Mouse s&p | 36.20 dB    | 35.19 dB | __ | 36.21 dB| 
+|DenoiSeg Flywing |24.79 dB | 24.92 dB     | 25.12 dB | 25.02 dB|
 |W2S Ch.0 Avg 1 | 34.36 dB   | 34.24 dB   |  - | __ |
 |W2S Ch.1 Avg 1 | 32.24 dB   | 32.22 dB   |  - | __ |
 |W2S Ch.2 Avg 1 | 35.31 dB   | 35.24 dB   |  - | __ |
@@ -84,9 +84,21 @@ Please check train.ipynb for details. It shows how to reproduce my results.
 |W2S Ch.1 Avg 16| 38.46 dB   | 38.41 dB   |  - | __ |
 |W2S Ch.2 Avg 16| 40.32 dB   | 40.56 dB   |  - | __ |
 ## Qualitative Results
-### **DenoSeg Flywing**
+### DenoiSeg
+#### Mouse
+![Sample From Test Set](./Results/DenoiSeg_Mouse/DenoiSegMouse.png)
+#### Mouse s&p
+![Sample From Test Set](./Results/DenoiSeg_Mouse_s&p/DenoiSegMouseS&p.png)
+#### Flywing
 ![Sample From Test Set](./Results/DenoiSeg_Flywing/DenoiSegFlywing.png)
 
+### W2S
+#### Ch.0 Avg1
+![Sample From Test Set](./Results/W2S/CH0_Avg1.png)
+#### Ch.1 Avg1
+![Sample From Test Set](./Results/W2S/CH1_Avg1.png)
+#### Ch.2 Avg1
+![Sample From Test Set](./Results/W2S/CH2_Avg1.png)
 
 
 ## Citation
